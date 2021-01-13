@@ -17,7 +17,7 @@
                 System.out.println("Search a of " + h + ": " + search(a, 77) +"/"+ a.length);
                 System.out.println("Search a of " + t +": " + search(a, 100) +"/"+ a.length);
             }
-        //Search method (Sequential)
+        //Search method
             public static int search(int[] a , int x ){
                 // POSTCONDITIONS: returns an integer i;
                 // if i >= 0, then a[i] == x; otherwise x is not is not in a
